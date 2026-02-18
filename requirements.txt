@@ -1,0 +1,14 @@
+torch
+torchvision
+transformers
+segment-anything-2
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+streamlit
+langchain
+openai
+tflite-runtime
+jiwer
