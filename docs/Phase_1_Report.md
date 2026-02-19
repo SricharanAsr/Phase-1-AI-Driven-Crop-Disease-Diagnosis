@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Study and Motivation [6M]
+## 1. Study and Motivation
 Agriculture sustains the majority of the Indian population, yet crop diseases cause an estimated **$220 Billion** in annual global losses. Over **70 million smallholder farmers** lack access to expert plant pathology diagnostics. Traditional methods of manual inspection are slow, error-prone, and expert-dependent. This project aims to democratize expert-level plant disease diagnosis by providing an AI-driven tool robust enough for real-world field conditions.
 
 ### Objective
@@ -14,7 +14,7 @@ To build a multi-stage, multi-modal diagnostic pipeline that goes beyond simple 
 
 ---
 
-## 2. Research Gaps & Domain Identification [4M]
+## 2. Research Gaps & Domain Identification
 Through an extensive review of existing literature, the following gaps were identified:
 1.  **Single-Modality Dependence**: Most systems only use RGB images, missing critical thermal or biochemical cues.
 2.  **Limited Crop Scope**: Existing models typically cover only 1–4 crops, while real-world farming often involves diverse species.
@@ -24,7 +24,7 @@ Through an extensive review of existing literature, the following gaps were iden
 
 ---
 
-## 3. Literature Survey & Benchmark Review [6M]
+## 3. Literature Survey & Benchmark Review
 We surveyed 12 foundational and recent papers (2016–2025).
 
 | Paper | Model | Multi-Crop | Env. Data | Segmentation | Field Accuracy |
@@ -36,7 +36,7 @@ We surveyed 12 foundational and recent papers (2016–2025).
 
 ---
 
-## 4. Proposed Methodology & Technical Depth [15M]
+## 4. Proposed Methodology & Technical Depth
 The system employs a **3-Stage Intelligent Pipeline**:
 
 ### Stage 1: Classification (Swin Transformer)
@@ -58,14 +58,14 @@ $$Y_{final} = \alpha Y_{CNN} + \beta Y_{GBM}$$
 
 ---
 
-## 5. Technical Knowledge & Stack [8M]
+## 5. Technical Knowledge & Stack
 - **Frameworks**: PyTorch, HuggingFace, Meta AI's SAM2.
 - **Datasets**: PlantVillage (87K), PlantSeg (11K), Mendeley Groundnut (10K), and Indian Crop datasets.
 - **Evaluation**: NIST framework benchmarks, Dice Coefficient (Segmentation), and Top-5 Accuracy (Classification).
 
 ---
 
-## 6. Current Status & Setup [2M]
+## 6. Current Status & Setup
 - **Version Control**: Git repository initialized with 3-stage directory structure.
 - **Task Management**: Project roadmap defined with scheduled sprints for Data Collection, Model Training, and Deployment.
 - **Baseline**: Literature survey and mathematical framework completed.
