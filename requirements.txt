@@ -7,8 +7,3 @@ pandas
 numpy
 matplotlib
 seaborn
-streamlit
-langchain
-openai
-tflite-runtime
-jiwer
