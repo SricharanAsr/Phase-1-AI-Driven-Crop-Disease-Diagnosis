@@ -92,7 +92,7 @@ A **Gradient Boosted Model (GBM)** processes:
 - Large-scale dataset curation and semi-supervised annotation.
 - Baseline training for Stage 1 and Stage 2.
 
-### Phase 3 & 4
+### Phase 3
 - Environmental fusion layer integration.
 - Mobile deployment and field validation in Indian conditions.
 
