@@ -7,7 +7,7 @@
 
 ## Sprint 1: Research & Foundation (Phase 1) — ✅ COMPLETED
 
-> **Duration:** Week 1–4 | **Status:** Done
+
 
 ### Epic: Literature Survey & Gap Analysis
 | Task | Type | Priority | Status |
@@ -59,7 +59,7 @@
 
 ## Sprint 2: Data & Baseline Training (Phase 2) — 🔜 UPCOMING
 
-> **Duration:** Week 5–10 | **Status:** To Do
+
 
 ### Epic: Data Preprocessing & Augmentation
 | Task | Type | Priority | Status |
@@ -86,7 +86,7 @@
 
 ## Sprint 3: Fusion, Deployment & Validation (Phase 3) — 📋 PLANNED
 
-> **Duration:** Week 11–16 | **Status:** To Do
+
 
 ### Epic: Stage 3 — Segmentation
 | Task | Type | Priority | Status |
@@ -111,46 +111,3 @@
 | Write final project report | Task | High | To Do |
 
 ---
-
-## How to Set Up This Board in Jira
-
-### Step 1: Create a Free Jira Account
-1. Go to [https://www.atlassian.com/software/jira/free](https://www.atlassian.com/software/jira/free)
-2. Click **"Get it free"**
-3. Sign up with your Amrita email
-
-### Step 2: Create the Project
-1. Click **"Create Project"**
-2. Choose **Scrum** board template
-3. Set project name: **AI-Driven Crop Disease Diagnosis**
-4. Set project key: **CROP**
-
-### Step 3: Create Epics
-Create these 10 Epics (use the Roadmap/Timeline view):
-1. Literature Survey & Gap Analysis
-2. Algorithm Selection & Architecture Design
-3. Dataset Curation
-4. Mathematical Framework
-5. Project Setup
-6. Data Preprocessing & Augmentation
-7. Stage 1 — Classification Training
-8. Stage 2 — Detection Training
-9. Stage 3 — Segmentation
-10. Deployment & Field Testing
-
-### Step 4: Create Tasks Under Each Epic
-For each row in the tables above, create a **Task** (or **Story**) and:
-- Link it to its parent **Epic**
-- Set **Priority** (High / Medium)
-- Set **Status** (Done for Sprint 1 tasks, To Do for others)
-
-### Step 5: Create Sprints
-1. Go to **Backlog** view
-2. Click **"Create Sprint"** three times to create Sprint 1, Sprint 2, Sprint 3
-3. Drag tasks into their respective sprints
-4. For **Sprint 1** — click **"Complete Sprint"** to mark it as finished
-
-### Step 6: Take a Screenshot
-Once your board looks clean, take a screenshot showing:
-- The **Board view** with Sprint 1 completed
-- The **Roadmap/Timeline** view showing all 3 sprints
