@@ -4,7 +4,11 @@ This document visualizes the multi-modal, three-stage intelligent diagnostic pip
 
 ## High-Level System Architecture
 
-```mermaid
+![Architecture Diagram](Architecture_Diagram.jpeg)
+
+*Proposed Hybrid CNN-Transformer Architecture for Crop Disease Detection*
+
+## Logical Workflow Diagram (Mermaid)
 graph TD
     subgraph "Input Layer"
         IMG["RGB Image (Crop Leaf)"]
