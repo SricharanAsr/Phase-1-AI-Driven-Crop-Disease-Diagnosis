@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "A"
+  given-names: "Sricharan"
+- family-names: "S S"
+  given-names: "Vishal Karthikeyan"
+- family-names: "C V"
+  given-names: "Rahul"
+- family-names: "Deemant"
+- family-names: "Sundar"
+title: "AI-Driven Crop Disease Diagnosis: A 3-Stage Pipeline with Environmental Context"
+version: 1.0.0
+date-released: 2026-03-31
+url: "https://github.com/SricharanAsr/Phase-1-AI-Driven-Crop-Disease-Diagnosis"
+keywords:
+  - agriculture
+  - machine learning
+  - crop disease
+  - swin transformer
+  - SAM2
+  - DETR
+  - computer vision
+  - plant pathology
+abstract: |
+  A comprehensive research project focused on building an intelligent diagnostic pipeline for identifying and assessing crop pathologies in real-world field conditions. The system utilizes Swin Transformers for classification, DETR for detection, and SAM2 for precise severity segmentation, integrated with environmental context.
+type: software
+license: MIT
