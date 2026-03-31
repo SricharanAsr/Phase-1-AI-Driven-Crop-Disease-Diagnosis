@@ -155,6 +155,15 @@ cython_debug/
 # VS Code
 .vscode/
 
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # ML specific
 data/plantvillage-dataset.zip
 data/plantvillage\ dataset/
@@ -162,9 +171,13 @@ models/*.pt
 models/*.pth
 models/*.h5
 models/*.ckpt
+models/*.onnx
+models/*.pb
 outputs/
 results/
 runs/
 wandb/
 mlruns/
 .dvc/
+lightning_logs/
+tensorboard/
