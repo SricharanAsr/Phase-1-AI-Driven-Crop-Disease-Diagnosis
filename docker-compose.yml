@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  pipeline:
+    build: .
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+      - ./outputs:/app/outputs
+    environment:
+      - CROP_DATA_PATH=/app/data/plantvillage dataset
+      - CROP_OUTPUT_DIR=/app/outputs
+    tty: true
+    stdin_open: true
+    command: python src/main.py
